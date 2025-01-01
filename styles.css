@@ -1,0 +1,181 @@
+* {
+    font-family: "Roboto", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+
+    margin: 0;
+
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 1rem;
+}
+
+img {
+    height: 150px;
+}
+
+.dark-bg {
+    background-color: #1F2937;
+}
+
+.hero-main {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+    margin: 0;
+}
+
+.hero-secondary {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.header {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+#signup {
+    color: white;
+    background-color: #3882F6;
+    width: 6rem;
+    height: 2rem;
+    border-radius: .5rem;
+    border-width: 0;
+
+
+    font-family: "Roboto", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.info-header {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    margin: 0;
+}
+
+.quote-bg {
+    background-color: #E5E7EB;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+    color: #1F2937;
+}
+
+
+
+
+#navbar {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 6rem;
+}
+
+
+#first {
+    padding: 2rem 6rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    gap: 3rem;
+
+}
+
+#first-left {
+    flex: 5;
+}
+
+#first-right {
+    flex: 4;
+
+}
+
+#first-right {
+    background-color: gray;
+    height: 15rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: .5rem;
+}
+
+
+#second {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 2rem 6rem;
+}
+
+#infos {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 3rem;
+}
+
+.info {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.info-picture-border {
+    display: flex;
+    justify-content: center;
+
+    border-style: solid;
+    border-width: 6px;
+    border-color: #3882F6;
+    border-radius: .5rem;
+
+    width: 100%;
+    padding: 1rem 0;
+
+
+}
+
+#third {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 0;
+}
+
+#fourth {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem 0;
+}
+
+
+#action {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    background-color: #3882F6;
+    padding: 1rem 4rem;
+    border-radius: 0.5rem;
+}
